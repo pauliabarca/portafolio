@@ -47,10 +47,9 @@ h4 {
 
 header {
   background-image: url('../img/IMG_20210110_113450818-01_v2.jpeg');
-  background-repeat: no-repear;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  padding-bottom: 10rem;
 }
 
 
@@ -69,6 +68,25 @@ header {
   background-color: #ffffff;
 }
 /* Colores */
+
+
+a:link {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:active {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+
 
 
 
