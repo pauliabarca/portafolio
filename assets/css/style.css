@@ -7,6 +7,11 @@ span {
   font-family: 'Oswald', sans-serif;
 }
 
+/* Tamaño y peso de letra */
+.alto {
+  line-height: 2;
+} ´
+
 h1 {
   font-size: 72px;
 }
@@ -42,22 +47,22 @@ h4 {
   .font-weight-extra-light {
     font-weight: 200;
   }
-
+/* Tamaño y peso de letra */
  
-
+/* Header */
 header {
   background-image: url('../img/IMG_20210110_113450818-01_v2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
+/* Header */
 
-
-
-
-
-
-
+/* Logos empresas sección mi experiencia */
+.logoempresa {
+  align-items: center;
+}
+/* Logos empresas sección mi experiencia */
 
 /* Colores */
 .bg-purple {
@@ -69,7 +74,7 @@ header {
 }
 /* Colores */
 
-
+/* Link */
 a:link {
 	color: #ffffff;
 }
@@ -85,33 +90,10 @@ a:active {
 a:visited {
 	color: #ffffff;
 }
+/* Link */
 
-
-
-
-
-.carousel-indicators .active {
-background-color: black;
-}
-
-.carousel-indicators {
-bottom:-20px;
-}
-
-.carousel-inner {
-margin-bottom:50px;
-}
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color:#343a40;
-}
-
-@media (min-width: 768px) {
-  .empezar {
-    width: 25%;
-    height: auto;
+@media (max-width: 575.98px)  {
+  .modal-fade { 
+    width: 80%;
   }
 }
