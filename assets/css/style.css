@@ -10,9 +10,9 @@ span {
 /* Tamaño y peso de letra */
 .alto {
   line-height: 2;
-} ´
+}
 
-h1 {
+´ h1 {
   font-size: 72px;
 }
 
@@ -30,25 +30,26 @@ h4 {
 
 .font-weight-bold {
   font-weight: 700;
-  }
+}
 
-  .font-weight-semi-bold {
-    font-weight: 600;
-  }
+.font-weight-semi-bold {
+  font-weight: 600;
+}
 
-  .font-weight-normal {
-    font-weight: 400;
-  } ´
+.font-weight-normal {
+  font-weight: 400;
+}
 
-  .font-weight-light {
-    font-weight: 300;
-  }
-  
-  .font-weight-extra-light {
-    font-weight: 200;
-  }
+´ .font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-extra-light {
+  font-weight: 200;
+}
+
 /* Tamaño y peso de letra */
- 
+
 /* Header */
 header {
   background-image: url('../img/IMG_20210110_113450818-01_v2.jpeg');
@@ -56,12 +57,14 @@ header {
   background-size: cover;
   background-position: left;
 }
+
 /* Header */
 
 /* Logos empresas sección mi experiencia */
 .logoempresa {
   align-items: center;
 }
+
 /* Logos empresas sección mi experiencia */
 
 /* Colores */
@@ -72,28 +75,30 @@ header {
 .bg-white {
   background-color: #ffffff;
 }
+
 /* Colores */
 
 /* Link */
 a:link {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 a:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 a:active {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 a:visited {
-	color: #ffffff;
+  color: #ffffff;
 }
+
 /* Link */
 
-@media (max-width: 575.98px)  {
-  .modal-fade { 
+@media (max-width: 575.98px) {
+  .modal-fade {
     width: 80%;
   }
 }
